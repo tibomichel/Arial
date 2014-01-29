@@ -12,8 +12,8 @@ body {
 
   .titre {
     text-align: center;
-    padding-top:  40px;
-    padding-bottom: 20px;
+    padding-top:  60px;
+    padding-bottom: 40px;
     color: #fff;
   }
 
@@ -21,16 +21,48 @@ body {
     background-color: #111111;
   }
 
-  .top-bar-section ul li.active > a {
-background: #111111;
+  .top-bar-section ul > li > a {
+background: #111111 !important;
 }
 
-#right {
-  background-color: #111111;
+ .top-bar-section ul > li > a:hover {
+background: #444 !important;
 }
 
-.ul > li > a {
-  background-color: #111111;
+.image {
+    position: relative; 
+}
+
+h4 { 
+   position: absolute; 
+   top: 100px; 
+   left: 0; 
+   width: 100%; 
+   text-align: center;
+   color: #fff;
+   text-decoration: bold;
+
+}
+
+h5 { 
+   position: absolute; 
+   top: 130px; 
+   left: 0; 
+   width: 100%; 
+   text-align: center;
+   color: #fff;
+   text-decoration: bold;
+   font-size: 12;
+}
+
+.voir {
+  background-color: transparent;
+  border: 3px solid #fff;
+  text-align: center;
+  position: absolute; 
+   top: 160px; 
+   left: 80px; 
+   padding: 10px;
 }
 
 

@@ -1,3 +1,8 @@
+html {
+    /*If you had a black or close to black background*/
+    background-color: #000000;
+}
+
 body {
   background:  #111111;
   color: #222222;
@@ -8,7 +13,9 @@ body {
   font-style: normal;
   line-height: 1;
   position: relative;
-  cursor: default; }
+  cursor: default; 
+}
+
 
   .titre {
     text-align: center;
@@ -17,16 +24,44 @@ body {
     color: #fff;
   }
 
+.retour {
+    text-align: left;
+    padding-top:  90px;
+    padding-bottom: 5px;
+    color: #fff !important;
+    font-size: 14px;
+  }
+
+  a.back {
+     color: #fff !important;
+    font-size: 14px;
+  }
+
+  a.back:hover {
+ color: #a18a63 !important;
+transition: 0.3s;
+  }
+
   .top-bar, .contain-to-grid, .right, .active, .section {
     background-color: #111111;
   }
 
   .top-bar-section ul > li > a {
 background: #111111 !important;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: bold;
 }
 
  .top-bar-section ul > li > a:hover {
-background: #444 !important;
+/*background: #444 !important;*/
+color: #a18a63;
+transition: 0.3s;
+
+}
+
+.top-bar, .contain-to-grid {
+  padding-top: 10px;
 }
 
 figure {
@@ -39,14 +74,15 @@ figure img {
   position: relative;
   display: block;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.6; /*makes image flicker */
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
+
 figcaption {
   position: absolute;
-  top: 0;
+  top: 200px;
   z-index: 11;
   padding: 10px;
   width: 100%;
@@ -57,13 +93,15 @@ figcaption {
 
 figcaption h2 {
   margin: 0 0 20px 0;
-  color: #3498db;
+  color: #a18a63;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 300;
   font-size: 130%;
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 
@@ -73,6 +111,8 @@ figcaption p {
   font-weight: 300;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 figcaption h2,
@@ -154,9 +194,44 @@ figure img:hover {
  /* background: #a18a63;*/
 }
 
-button.voir:hover, button.voir:focus, .button.voir:hover, .button.voir:focus {
+/*button.voir:hover,*/ button.voir:focus, .button.voir:hover, .button.voir:focus {
 background-color: transparent;
 }
 
+h2.mo {
+  font-size: 18px;
+}
 
+button.voir:hover {
+background-color: #a18a63 !important;
+transition: 0.3s;
+}
+
+/*Page perso*/
+
+div.bio {
+  background-color:  #a18a63;
+  height: 741px;
+}
+  
+.bio {
+  padding-left: 30px;
+  padding-top: 30px;
+} 
+
+
+.inline-list a {
+background: #111111 !important;
+font-size: 10px;
+text-transform: uppercase;
+/*font-weight: bold;*/
+color: #fff;
+}
+
+ .inline-list a:hover {
+/*background: #444 !important;*/
+color: #a18a63;
+transition: 0.3s;
+
+}
 

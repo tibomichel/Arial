@@ -6,8 +6,30 @@
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/icons/foundation-icons.css" />
+
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/hovers.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+ 
+    $("body").fadeIn(2000);
+ 
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);      
+    });
+         
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
+
   </head>
   <body>
     
@@ -15,7 +37,7 @@
    <nav class="top-bar" data-topbar>
   <ul class="title-area">
     <li class="name">
-      <h1><a href="index.html"> <img src="img/logosmall.png"/></a></h1>
+      <h1><a href="index.html">Arial <!-- <img src="img/logosmall.png"/> --></a></h1>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
   </ul>
@@ -37,7 +59,7 @@
 
   <div class="row collapse">
     <div class="small-12 small-centered columns">
-      <h3 class="titre">Arial est un collectif de producteurs locaux qui vous apportent des aliments de qualité au quotidien.</h1>
+      <h3 class="titre">Arial est un collectif de producteurs vosgiens qui vous apportent des aliments de qualité au quotidien.</h1>
     </div>
 
   </div>
@@ -48,7 +70,7 @@
  
   <div class="row collapse">
     <div class="small-4 columns">
-      <a href="danielle.html">
+      <a href="danielle.html" class="transition">
       <figure>
           <img src="img/photo1.jpg" />
 
@@ -62,7 +84,7 @@
     </div>
     
     <div class="small-4 columns">
-           <a href="#">
+           <a href="manu.html" class="transition">
       <figure>
           <img src="img/photo2.jpg" />
 

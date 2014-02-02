@@ -8,27 +8,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/icons/foundation-icons.css" />
 
-  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/transition.js"></script>
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/hovers.js"></script>
 
-<script type="text/javascript">
-$(document).ready(function() {
-    $("body").css("display", "none");
- 
-    $("body").fadeIn(2000);
- 
-    $("a.transition").click(function(event){
-        event.preventDefault();
-        linkLocation = this.href;
-        $("body").fadeOut(1000, redirectPage);      
-    });
-         
-    function redirectPage() {
-        window.location = linkLocation;
-    }
-});
-</script>
 
   </head>
   <body>

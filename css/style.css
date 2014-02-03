@@ -1,6 +1,6 @@
 html {
     /*If you had a black or close to black background*/
-    background-color: #000000;
+    background-color: #111111;
 }
 
 body {
@@ -101,7 +101,7 @@ figcaption h2 {
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   font-size: 30px;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 

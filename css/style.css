@@ -74,7 +74,7 @@ figure img {
   position: relative;
   display: block;
   width: 100%;
-  opacity: 0.6; /*makes image flicker */
+  opacity: 0.5; /*makes image flicker */
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
@@ -200,6 +200,9 @@ background-color: transparent;
 
 h2.mo {
   font-size: 18px;
+  padding-top: 22px;
+  margin-top: -9px;
+
 }
 
 button.voir:hover {

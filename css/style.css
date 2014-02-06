@@ -216,12 +216,14 @@ transition: 0.3s;
 
 div.bio {
   background-color:  #a18a63;
-  height: 741px;
+  height: auto;
 }
   
 .bio {
   padding-left: 30px;
   padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
 } 
 
 

@@ -8,7 +8,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Vollkorn", serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -16,12 +16,38 @@ body {
   cursor: default; 
 }
 
+    /*Typo*/
 
-  .titre {
+@font-face{ 
+  font-family: 'hvd_poster-webfont';
+  src: url('hvd_poster/hvd_poster-webfont.eot');
+  src: url('hvd_poster/hvd_poster-webfont.eot?iefix') format('eot'),
+       url('hvd_poster/hvd_poster-webfont.woff') format('woff'),
+       url('hvd_poster/hvd_poster-webfont.ttf') format('truetype'),
+       url('hvd_poster/hvd_poster-webfont.svg#webfont') format('svg');
+}
+
+/*@font-face{ 
+  font-family: 'brushstp-webfont';
+  src: url('brushstp/BRUSHSTP-webfont.eot');
+  src: url('brushstp/BRUSHSTP-webfont.eot?iefix') format('eot'),
+       url('brushstp/BRUSHSTP-webfont.woff') format('woff'),
+       url('brushstp/BRUSHSTP-webfont.ttf') format('truetype'),
+       url('brushstp/BRUSHSTP-webfont.svg#webfont') format('svg');
+}*/
+
+h2, h3 {
+  font-family: "hvd_poster-webfont";
+}
+
+
+  h3.titre {
     text-align: center;
     padding-top:  60px;
     padding-bottom: 40px;
     color: #fff;
+    font-family: "Vollkorn";
+    font-size: 32x/36px !important;
   }
 
 .retour {
@@ -38,7 +64,7 @@ body {
   }
 
   a.back:hover {
- color: #a18a63 !important;
+ color: #aa8f5c !important;
 transition: 0.3s;
   }
 
@@ -50,12 +76,12 @@ transition: 0.3s;
 background: #111111 !important;
 font-size: 14px;
 text-transform: uppercase;
-font-weight: bold;
+/*font-weight: bold;*/
 }
 
  .top-bar-section ul > li > a:hover {
 /*background: #444 !important;*/
-color: #a18a63;
+color: #aa8f5c;
 transition: 0.3s;
 
 }
@@ -80,6 +106,9 @@ figure img {
   transition: opacity 0.3s;
 }
 
+.carte {
+  padding: 10px;
+}
 
 figcaption {
   position: absolute;
@@ -94,7 +123,7 @@ figcaption {
 
 figcaption h2 {
   margin: 0 0 20px 0;
-  color: #a18a63;
+  color: #aa8f5c;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 300;
@@ -113,6 +142,7 @@ figcaption p {
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
   font-size: 14px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -192,7 +222,7 @@ figure img:hover {
   opacity: 1;
   -webkit-transform: translateY(-50%)  scale(1);
   transform: translateY(-50%)  scale(1);
- /* background: #a18a63;*/
+ /* background: #aa8f5c;*/
 }
 
 /*button.voir:hover,*/ button.voir:focus, .button.voir:hover, .button.voir:focus {
@@ -208,14 +238,14 @@ h2.mo {
 }
 
 button.voir:hover {
-background-color: #a18a63 !important;
+background-color: #aa8f5c !important;
 transition: 0.3s;
 }
 
 /*Page perso*/
 
 div.bio {
-  background-color:  #a18a63;
+  background-color:  #aa8f5c;
   height: auto;
 }
   
@@ -237,7 +267,7 @@ color: #fff;
 
  .inline-list a:hover {
 /*background: #444 !important;*/
-color: #a18a63;
+color: #aa8f5c;
 transition: 0.3s;
 
 }

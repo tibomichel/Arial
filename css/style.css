@@ -100,10 +100,17 @@ figure {
 figure img {
   position: relative;
   display: block;
-  width: 100%;
+/*  width: 100%;*/
   opacity: 0.5; /*makes image flicker */
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
+}
+
+.picto {
+  padding-top: 20px;
+  position: absolute;
+  top: 50%;
+  left:50%;
 }
 
 .carte {
@@ -133,6 +140,7 @@ figcaption h2 {
   font-size: 30px;
   font-weight: bold;
 }
+
 
 
 figcaption p {
@@ -196,7 +204,7 @@ figure button {
 figure img:hover {
   position: relative;
   display: block;
-  width: 100%;
+ /* width: 100%;*/
   opacity: 0;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
@@ -256,6 +264,17 @@ div.bio {
   padding-bottom: 10px;
 } 
 
+.bio h3 {
+  font-size: 2.5em;
+}
+
+.bio h4 {
+  font-size: 1.1em !important;
+  font-style: italic;
+  font-family: "Vollkorn";
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 
 .inline-list a {
 background: #111111 !important;

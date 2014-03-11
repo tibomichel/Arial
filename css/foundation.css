@@ -2634,11 +2634,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008cba;
+  color: #f1F1F1;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #444444; }
   a img {
     border: none; }
 

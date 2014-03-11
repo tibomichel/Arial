@@ -277,7 +277,7 @@ div.bio {
 } 
 
 .bio h3 {
-  font-size: 2.5em;
+  font-size: 1.7em;
   text-transform: uppercase;
   font-weight: bold !important;
   color: #ffffff;
@@ -285,11 +285,44 @@ div.bio {
 }
 
 .bio h4 {
-  font-size: 1.1em !important;
+  font-size: 1em !important;
   font-style: italic;
   font-family: "Vollkorn";
   font-weight: bold;
   padding-bottom: 10px;
+/*  color: #444444;*/
+}
+
+.bio h5 {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f2F2F2;
+  font-size: 0.9em;
+}
+
+.bio ul li {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  color: #f2F2F2;
+  font-size: 0.8em;
+  letter-spacing: 1px !important;
+  font-weight: 300;
+}
+
+.bio .contact {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #22222;
+}
+
+p  a  {
+  color: #22222 !important;
+}
+
+ a :hover {
+  color: #22222 !important;
 }
 
 .inline-list a {

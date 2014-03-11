@@ -109,20 +109,37 @@ figure img {
 }
 
 .picto {
-  padding-top: 10px;
+  padding-top: 16px;
   position: absolute;
+  display: block;
   text-align: center;
   top: 50%;
-  left:40%;
+  left:38%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-/*.pictomanu {
-  padding-top: 10px;
+.pictomanu {
+  padding-top: 16px;
   position: absolute;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}*/
+  display: block;
+  text-align: center;
+  top: 50%;
+  left:45%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pictoropp {
+  padding-top: 16px;
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 50%;
+  left:35%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .carte {
   padding: 10px;
@@ -150,7 +167,7 @@ figcaption h2 {
   transition: transform 0.3s;
   font-size: 30px;
   font-weight: bold;
- /* padding-bottom: 10px;  if picto*/
+  padding-bottom: 10px;  /*if picto*/
 }
 
 
@@ -164,6 +181,7 @@ figcaption p {
   font-size: 14px;
   font-family: "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
+  padding-top: 5px; /*if picto*/
 }
 
 figcaption h2,
@@ -252,8 +270,9 @@ background-color: transparent;
 h2.mo {
   font-size: 18px;
   padding-top: 22px;
-  padding-bottom: 4px;
+  padding-bottom: 14px;
   margin-top: -9px;
+
 
 }
 
@@ -324,6 +343,7 @@ p  a  {
  a :hover {
   color: #22222 !important;
 }
+
 
 .inline-list a {
 background: #111111 !important;

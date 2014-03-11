@@ -18,23 +18,7 @@ body {
 
     /*Typo*/
 
-@font-face{ 
-  font-family: 'hvd_poster-webfont';
-  src: url('hvd_poster/hvd_poster-webfont.eot');
-  src: url('hvd_poster/hvd_poster-webfont.eot?iefix') format('eot'),
-       url('hvd_poster/hvd_poster-webfont.woff') format('woff'),
-       url('hvd_poster/hvd_poster-webfont.ttf') format('truetype'),
-       url('hvd_poster/hvd_poster-webfont.svg#webfont') format('svg');
-}
 
-/*@font-face{ 
-  font-family: 'brushstp-webfont';
-  src: url('brushstp/BRUSHSTP-webfont.eot');
-  src: url('brushstp/BRUSHSTP-webfont.eot?iefix') format('eot'),
-       url('brushstp/BRUSHSTP-webfont.woff') format('woff'),
-       url('brushstp/BRUSHSTP-webfont.ttf') format('truetype'),
-       url('brushstp/BRUSHSTP-webfont.svg#webfont') format('svg');
-}*/
 
 h2, h3 {
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -307,7 +291,6 @@ div.bio {
   font-size: 1em !important;
   font-style: italic;
   font-family: "Vollkorn";
-  font-weight: bold;
   padding-bottom: 10px;
 /*  color: #444444;*/
 }
@@ -344,6 +327,10 @@ p  a  {
   color: #22222 !important;
 }
 
+p.copy {
+  font-size: 0.8em;
+  color: #ffffff;
+}
 
 .inline-list a {
 background: #111111 !important;
@@ -360,3 +347,93 @@ transition: 0.3s;
 
 }
 
+
+/*A PROPOS */
+
+img.logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   padding-bottom: 40px;
+   padding-top: 20px;
+   border-bottom: solid 2px #fff;
+}
+
+.description {
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.mentions {
+  text-align: left;
+  padding-right: 50px;
+  padding-left:  50px;
+}
+
+
+/*CONTACT*/
+
+div.coord {
+  background-color:  #aa8f5c;
+  height: auto;
+}
+  
+.coord {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+} 
+
+
+.coord h3 {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  color: #ffffff;
+
+}
+
+.coord h4 {
+  font-size: 1em !important;
+  font-style: italic;
+  font-family: "Vollkorn";
+  padding-bottom: 10px;
+/*  color: #444444;*/
+}
+
+.coord h5 {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f2F2F2;
+  font-size: 0.9em;
+}
+
+.coord ul li {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  color: #f2F2F2;
+  font-size: 0.8em;
+  letter-spacing: 1px !important;
+  font-weight: 300;
+}
+
+.coord .contact {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #22222;
+}
+
+img.logoca {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}

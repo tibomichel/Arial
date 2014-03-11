@@ -3,70 +3,114 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Arial | Producteurs de Déodatie</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/icons/foundation-icons.css" />
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/transition.js"></script>
     <script src="js/vendor/modernizr.js"></script>
+    <script src="js/hovers.js"></script>
+
   </head>
   <body>
     
-         <div class="row collapse">
-    <div class="large-3 columns">
-      <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
-    </div>
-    <div class="large-9 columns">
-      <ul class="right button-group">
-      <li><a href="#" class="button">Accueil</a></li>
-      <li><a href="#" class="button">A propos</a></li>
-      <li><a href="#" class="button">Contact</a></li>
-   
-      </ul>
-     </div>
-   </div>
+    <div class="contain-to-grid fixed">
+   <nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="index.html"><img src="img/logoarial.svg"/></a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="index.html">Accueil</a></li>
+      <li class="active"><a href="apropos.html">A propos</a></li>
+      <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Left Nav Section -->
+  </section>
+</nav>
+</div>
   
 <!-- End Header and Nav -->
 
   <div class="row collapse">
     <div class="small-12 small-centered columns">
+      <h5 class="retour"><a class="back" href="index.html"><i class="fi-arrow-left"></i>&nbsp; &nbsp;Retour</a></h6>
+    </div>
 
-      <label>Input Label
-        <input type="text" placeholder="large-12.columns" />
-      </label>
+  </div>
+  
+  <!-- End Header and Nav -->
+  
+  
+  <div class="row collapse">    
+    
+     <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
 
-      <h1>SDGSGSS</h1>
+    
+
+
+    <!-- Main Content Section -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="small-12 columns collapse">
+        <div class="bio">
+      
+      <img class="logo" src="img/logo.png" />
+
+      <div class="description">
+      
+     <h4>L’association ARIAL (Association de Relance des Initiatives
+Agricoles Locales). Cette association, fondée en 1995, est présidée par Julie HOUDOT.
+Les producteurs sont localisés uniquement en déodatie, sur le territoire de la petite
+montagne Nord.</h4>
+     <p>Partez à la découverte des produits locaux et allez à la rencontre de ces agriculteurs qui ont fait le choix d'une production plus petite, pour des saveurs variées et de qualité : vins de petits fruits, viande de boeuf, de veau, de volaille, de mouton ou de porc, mais aussi fromages, confitures, miel et légumes. De l'entrée au dessert, la tradition des Vosges vous accompagne.</p>
+
+     <img class="logo" src="img/picto.png" />
+     
+
+     </div>
+    
     </div>
 
   </div>
 
-
-
-
- 
+  </div>
+    
+  
   <!-- Footer -->
   
   <footer class="row collapse">
-    <div class="small-12 columns">
+    <div class="large-12 columns">
       <hr />
       <div class="row">
-        <div class="small-6 columns">
-          <p>© Copyright no one at all. Go to town.</p>
+        <div class="large-6 columns">
+             <p class="copy">© 2014 ARIAL Tous droits réservés.</p>
         </div>
-        <div class="small-6 columns">
+        <div class="large-6 columns">
           <ul class="inline-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
+         <li><a href="mentions.html">Mentions légales</a></li>
           </ul>
         </div>
       </div>
     </div> 
   </footer>
-    
-  </body>
+
+
+</body>
     <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
+   <script src="js/foundation/foundation.topbar.js"></script>
   <script>
     $(document).foundation();
   </script>
 </html>
+   
